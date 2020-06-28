@@ -1,0 +1,34 @@
+Most computer programs are brittle.  They may
+have acceptable behavior for the range of
+applications that they are specified to work
+for, but they fail miserably for applications
+even slightly outside of that range.  For
+example, a program may work well when its
+inputs are complete, but be unable to produce
+any sensible result if any of its inputs are
+missing or noisy.
+
+We propose a strategy for alleviating this
+kind of brittleness: because many programs
+are used repeatedly on a very sparse but
+highly structured subset of the possible
+inputs that might be provided, we can build
+wrappers that fill in missing or noisy data
+by inducing the missing information from the
+other inputs.  
+
+We illustrate this strategy with a wrapper
+that acquires constraints on the graphical
+presentation of characters.  When exposed to
+the first 317 words of "Pride and Prejudice,"
+the constraints it acquires capture
+information that can be used to fill in
+missing or clarify noisy data in similarly
+presented text.
+
+This strategy of generalization wrappers can
+be applied recursively, to every subsystem of
+a large system, substantially improving the
+robustness of the system.
+
+

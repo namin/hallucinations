@@ -1,0 +1,101 @@
+\newcommand{\noopsort}[1]{} \newcommand{\printfirst}[2]{#1}
+  \newcommand{\singleletter}[1]{#1} \newcommand{\switchargs}[2]{#2#1}
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Allen}{1983}]{allen83}
+Allen, J.~F.
+\newblock 1983.
+\newblock Maintaining knowledge about temporal intervals.
+\newblock {\em Communications of the ACM} 26(11):832--843.
+
+\bibitem[\protect\citeauthoryear{Borchardt}{1992}]{borchardt}
+Borchardt, G.~C.
+\newblock 1992.
+\newblock Understanding causal descriptions of physical systems.
+\newblock In {\em AAAI Tenth National Conference on Artificial Intelligence}.
+
+\bibitem[\protect\citeauthoryear{Chomsky}{2005}]{chomsky05}
+Chomsky, N.
+\newblock 2005.
+\newblock Three factors in language design.
+\newblock {\em Linguistic inquiry} 36(1):1--22.
+
+\bibitem[\protect\citeauthoryear{Frye}{1976}]{frye}
+Frye, N.
+\newblock 1976.
+\newblock {\em The Secular Scripture: A study of the structure of romance}.
+\newblock Harvard University Press.
+\newblock chapter The Recovery of Myth.
+
+\bibitem[\protect\citeauthoryear{Gregory}{1977}]{gregory77}
+Gregory, R.~L.
+\newblock 1977.
+\newblock Vision with isoluminant colour contrast: 1. a projection technique
+  and observations.
+\newblock {\em Perception} 6(1):113--119.
+
+\bibitem[\protect\citeauthoryear{Kanisza}{1979}]{kanizsa79}
+Kanisza, G.
+\newblock 1979.
+\newblock {\em Organization in vision. Essays on gestalt perception.}
+\newblock Praeger, New York.
+
+\bibitem[\protect\citeauthoryear{Kanwisher}{1998}]{kanwisher98}
+Kanwisher, N.
+\newblock 1998.
+\newblock The modular structure of human visual recognition: Evidence from
+  functional imaging.
+\newblock In Sabourin, M.; Craik, F.; and Robert, M., eds., {\em Advances in
+  psychological science, Vol. 2: Biological and cognitive aspects}. Psychology
+  Press.
+\newblock  199--214.
+
+\bibitem[\protect\citeauthoryear{Koenderink and van Doorn}{2008}]{Koenderink08}
+Koenderink, J., and van Doorn, A.
+\newblock 2008.
+\newblock The structure of visual spaces.
+\newblock {\em Journal of Mathematical Imaging and Vision}.
+
+\bibitem[\protect\citeauthoryear{Minsky}{1985}]{societyofmind}
+Minsky, M.
+\newblock 1985.
+\newblock {\em The Society of Mind}.
+\newblock Simon \& Schuster.
+
+\bibitem[\protect\citeauthoryear{Minsky}{2006}]{emotionmachine}
+Minsky, M.
+\newblock 2006.
+\newblock {\em The Emotion Machine: Commonsense Thinking, Artificial
+  Intelligence, and the Future of the Human Mind}.
+\newblock Simon \& Schuster.
+
+\bibitem[\protect\citeauthoryear{Nieder}{2002}]{nieder02}
+Nieder, A.
+\newblock 2002.
+\newblock Seeing more than meets the eye: processing of illusory contours in
+  animals.
+\newblock {\em Journal of Comparative Physiology A: Neuroethology, Sensory,
+  Neural, and Behavioral Physiology} 188(4):249--260.
+
+\bibitem[\protect\citeauthoryear{Ullman}{1996}]{ullman}
+Ullman, S.
+\newblock 1996.
+\newblock {\em High-Level Vision}.
+\newblock MIT Press.
+\newblock chapter Sequence Seeking and Counter-Streams.
+
+\bibitem[\protect\citeauthoryear{Waltz}{1975}]{waltz}
+Waltz, D.
+\newblock 1975.
+\newblock Understanding line drawings of scenes with shadows.
+\newblock In Winston, P.~H., ed., {\em The Psychology of Computer Vision}.
+  McGraw-Hill.
+\newblock  19--92.
+
+\bibitem[\protect\citeauthoryear{Yip and Sussman}{1997}]{DBLP:conf/aaai/YipS97}
+Yip, K., and Sussman, G.~J.
+\newblock 1997.
+\newblock Sparse representations for fast, one-shot learning.
+\newblock In {\em AAAI/IAAI},  521--527.
+
+\end{thebibliography}

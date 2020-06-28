@@ -1,0 +1,680 @@
+#((CORRELATOR 0 T 66 ((2 2 NOTHING) (4 -2 BLANK) (-3 -2 HORIZONTAL)
+                      (4 -1 BLANK) (-3 -3 HORIZONTAL)))
+  (CORRELATOR 3 T 139 ((-2 1 NOTHING) (-4 0 BLANK) (3 0 FALL) (3 0 FALL)
+                       (3 -1 FALL)))
+  (CORRELATOR 4 T 146 ((-1 2 NOTHING) (-4 -3 BLANK) (0 -2 FALL)
+                       (1 0 HORIZONTAL) (0 -1 FALL)))
+  (CORRELATOR 5 T 147 ((0 1 SMALL) (0 -3 FALL) (2 -3 HORIZONTAL) (-4 -2 BLANK)
+                       (2 -3 HORIZONTAL)))
+  (CORRELATOR 6 T 14 ((-1 1 NOTHING) (-2 -3 MEDIUM) (-2 -3 MEDIUM) (0 -1 RISE)
+                      (-2 0 HORIZONTAL)))
+  (CORRELATOR 8 T 115 ((2 1 NOTHING) (-3 -1 FALL) (-3 0 FALL) (0 -1 RISE)
+                       (-2 -1 HORIZONTAL)))
+  (CORRELATOR 9 T 138 ((2 3 NOTHING) (2 -3 RISE) (2 -1 FALL) (0 -2 HORIZONTAL)
+                       (-1 -1 SMALL)))
+  (CORRELATOR 11 T 148 ((0 1 FALL) (-2 -3 MEDIUM) (4 -2 BLANK) (4 -3 BLANK)
+                        (0 0 SMALL)))
+  (CORRELATOR 13 T 145 ((-1 3 NOTHING) (-4 -2 BLANK) (2 -1 MEDIUM)
+                        (1 -2 HORIZONTAL) (1 -3 HORIZONTAL)))
+  (CORRELATOR 17 T 77 ((1 1 NOTHING) (0 0 SMALL) (-1 0 HORIZONTAL)
+                       (1 -2 SMALL) (-1 -1 HORIZONTAL)))
+  (CORRELATOR 18 T 103 ((-2 1 NOTHING) (0 -3 HORIZONTAL) (0 -3 HORIZONTAL)
+                        (0 -2 HORIZONTAL) (2 -3 MEDIUM)))
+  (CORRELATOR 20 T 147 ((2 2 NOTHING) (1 0 MEDIUM) (0 -3 HORIZONTAL)
+                        (2 -2 FALL) (0 -1 HORIZONTAL)))
+  (CORRELATOR 21 T 144 ((-2 2 NOTHING) (-4 -3 BLANK) (-4 0 BLANK) (3 -2 RISE)
+                        (0 0 SMALL)))
+  (CORRELATOR 22 T 33 ((2 1 NOTHING) (4 -2 BLANK) (-3 -2 FALL) (-2 -3 MEDIUM)
+                       (0 0 SMALL)))
+  (CORRELATOR 24 T 141 ((0 2 NOTHING) (-3 -2 FALL) (-2 -3 MEDIUM) (0 -1 RISE)
+                        (-3 -1 FALL)))
+  (CORRELATOR 25 T 147 ((2 3 NOTHING) (0 -1 FALL) (-4 0 BLANK) (0 -1 FALL)
+                        (3 -2 RISE)))
+  (CORRELATOR 26 T 25 ((1 2 NOTHING) (0 -2 HORIZONTAL) (2 0 MEDIUM)
+                       (2 0 MEDIUM) (2 -1 MEDIUM)))
+  (CORRELATOR 27 T 84 ((2 3 NOTHING) (-1 -2 MEDIUM) (1 -2 HORIZONTAL)
+                       (1 -1 HORIZONTAL) (-2 0 HORIZONTAL)))
+  (CORRELATOR 28 T 69 ((0 2 NOTHING) (-2 -3 HORIZONTAL) (4 -3 BLANK)
+                       (-2 -1 MEDIUM) (0 -3 HORIZONTAL)))
+  (CORRELATOR 29 T 95 ((-2 3 NOTHING) (-4 -3 BLANK) (1 -2 HORIZONTAL)
+                       (0 -2 FALL) (0 -3 FALL)))
+  (CORRELATOR 31 T 144 ((-1 3 NOTHING) (-4 -3 BLANK) (0 -2 FALL) (-4 -3 BLANK)
+                        (-4 -2 BLANK)))
+  (CORRELATOR 32 T 44 ((-2 2 NOTHING) (2 -2 LARGE) (0 -1 FALL) (0 0 SMALL)
+                       (2 -2 LARGE)))
+  (CORRELATOR 36 T 146 ((1 2 NOTHING) (-2 -3 MEDIUM) (0 -1 RISE)
+                        (-2 0 HORIZONTAL) (0 0 SMALL)))
+  (CORRELATOR 37 T 11 ((1 1 MEDIUM) (3 -2 HORIZONTAL) (1 -2 HORIZONTAL)
+                       (1 -2 HORIZONTAL) (1 -1 HORIZONTAL)))
+  (CORRELATOR 38 T 8 ((-1 2 NOTHING) (-4 -3 BLANK) (2 -3 HORIZONTAL)
+                      (-4 -3 BLANK) (0 0 SMALL)))
+  (CORRELATOR 41 T 95 ((-1 2 NOTHING) (-4 -2 BLANK) (1 -1 MEDIUM)
+                       (-4 -3 BLANK) (1 -2 MEDIUM)))
+  (CORRELATOR 42 T 1 ((-1 3 NOTHING) (0 0 NIL) (-3 0 NIL) (0 0 NIL)
+                      (-4 -1 NIL)))
+  (CORRELATOR 43 T 146 ((-2 3 NOTHING) (0 -2 HORIZONTAL) (-1 -1 SMALL)
+                        (1 0 MEDIUM) (-1 -1 SMALL)))
+  (CORRELATOR 44 T 9 ((-2 1 NOTHING) (4 -2 HORIZONTAL) (4 -2 HORIZONTAL)
+                      (4 -3 LARGE) (2 -2 HORIZONTAL)))
+  (CORRELATOR 47 T 79 ((-1 3 NOTHING) (-2 -1 MEDIUM) (-2 0 MEDIUM)
+                       (0 -2 HORIZONTAL) (-2 -2 HORIZONTAL)))
+  (CORRELATOR 48 T 89 ((-2 3 NOTHING) (-4 -3 BLANK) (3 -1 HORIZONTAL)
+                       (2 -1 HORIZONTAL) (0 -1 HORIZONTAL)))
+  (CORRELATOR 51 T 66 ((0 3 NOTHING) (0 -2 HORIZONTAL) (-2 0 MEDIUM)
+                       (-2 -3 HORIZONTAL) (4 -2 BLANK)))
+  (CORRELATOR 55 T 137 ((0 2 NOTHING) (3 0 FALL) (3 -1 FALL) (1 -2 HORIZONTAL)
+                        (-4 -3 BLANK)))
+  (CORRELATOR 60 T 147 ((0 3 NOTHING) (-2 -3 MEDIUM) (-2 -1 HORIZONTAL)
+                        (-3 -2 FALL) (0 -1 RISE)))
+  (CORRELATOR 62 T 92 ((-1 3 NOTHING) (0 0 SMALL) (1 -1 MEDIUM) (-4 -2 BLANK)
+                       (1 -3 SMALL)))
+  (CORRELATOR 66 T 139 ((-1 1 NOTHING) (0 -3 FALL) (-4 -1 BLANK)
+                        (1 -1 HORIZONTAL) (0 -2 FALL)))
+  (CORRELATOR 68 T 135 ((1 2 NOTHING) (0 0 SMALL) (-1 0 SMALL) (-1 0 SMALL)
+                        (1 -1 HORIZONTAL)))
+  (CORRELATOR 70 T 9 ((0 2 NOTHING) (0 -2 FALL) (3 0 FALL) (-4 -2 BLANK)
+                      (-4 -2 BLANK)))
+  (CORRELATOR 71 T 148 ((2 3 NOTHING) (-3 -2 FALL) (-3 0 FALL) (0 0 SMALL)
+                        (0 -1 RISE)))
+  (CORRELATOR 72 T 139 ((-2 3 NOTHING) (-4 -3 BLANK) (2 -1 MEDIUM)
+                        (-4 -3 BLANK) (0 -1 HORIZONTAL)))
+  (CORRELATOR 77 T 138 ((1 1 NOTHING) (-3 0 FALL) (0 -1 RISE) (0 0 SMALL)
+                        (-2 -1 HORIZONTAL)))
+  (CORRELATOR 85 T 143 ((0 3 NOTHING) (0 -1 FALL) (3 0 FALL) (1 -1 HORIZONTAL)
+                        (3 0 FALL)))
+  (CORRELATOR 87 T 28 ((1 2 NOTHING) (2 -1 RISE) (-1 -2 HORIZONTAL)
+                       (2 0 SMALL) (-1 -1 HORIZONTAL)))
+  (CORRELATOR 90 T 30 ((2 1 NOTHING) (2 0 LARGE) (0 -1 RISE) (2 -3 LARGE)
+                       (0 -1 RISE)))
+  (CORRELATOR 92 T 143 ((-2 2 NOTHING) (-2 -1 HORIZONTAL) (4 -3 BLANK)
+                        (-2 -1 HORIZONTAL) (4 -2 BLANK)))
+  (CORRELATOR 96 T 148 ((1 3 NOTHING) (1 -1 HORIZONTAL) (-4 -2 BLANK)
+                        (1 -1 HORIZONTAL) (0 -2 FALL)))
+  (CORRELATOR 97 T 77 ((2 1 NOTHING) (0 -1 SMALL) (1 -2 MEDIUM) (1 -2 MEDIUM)
+                       (1 -3 SMALL)))
+  (CORRELATOR 98 T 16 ((-2 3 NOTHING) (2 0 SMALL) (3 0 SMALL) (3 0 SMALL)
+                       (0 0 SMALL)))
+  (CORRELATOR 113 T 89 ((1 2 NOTHING) (0 0 SMALL) (0 0 SMALL)
+                        (-2 0 HORIZONTAL) (-1 -2 MEDIUM)))
+  (CORRELATOR 115 T 61 ((1 2 NOTHING) (4 -3 BLANK) (-2 -1 MEDIUM) (4 -2 BLANK)
+                        (-3 -3 HORIZONTAL)))
+  (CORRELATOR 116 T 79 ((1 1 NOTHING) (0 -1 HORIZONTAL) (-3 -3 HORIZONTAL)
+                        (0 -3 HORIZONTAL) (-2 -3 HORIZONTAL)))
+  (CORRELATOR 119 T 1 ((1 2 NOTHING) (0 0 SMALL) (4 -2 BLANK) (0 -1 RISE)
+                       (4 -3 BLANK)))
+  (CORRELATOR 124 T 25 ((-1 3 NOTHING) (-1 -2 HORIZONTAL) (2 0 SMALL)
+                        (2 0 SMALL) (1 -2 MEDIUM)))
+  (CORRELATOR 125 T 8 ((-2 1 NOTHING) (1 -2 HORIZONTAL) (3 -1 HORIZONTAL)
+                       (1 0 MEDIUM) (3 -1 HORIZONTAL)))
+  (CORRELATOR 128 T 10 ((1 1 NOTHING) (-2 0 HORIZONTAL) (4 -3 BLANK)
+                        (-1 -2 HORIZONTAL) (-1 -2 HORIZONTAL)))
+  (CORRELATOR 130 T 91 ((-1 2 NOTHING) (2 0 LARGE) (-4 -2 BLANK)
+                        (0 -1 HORIZONTAL) (-4 -2 BLANK)))
+  (CORRELATOR 131 T 99 ((1 3 NOTHING) (-1 -2 MEDIUM) (-1 -2 MEDIUM)
+                        (-1 -2 MEDIUM) (1 -1 HORIZONTAL)))
+  (CORRELATOR 134 T 3 ((0 2 NOTHING) (0 0 SMALL) (1 0 HORIZONTAL) (3 0 FALL)
+                       (0 -3 FALL)))
+  (CORRELATOR 139 T 147 ((-2 3 NOTHING) (-3 -1 FALL) (-2 0 HORIZONTAL)
+                         (-3 -1 FALL) (-2 -3 MEDIUM)))
+  (CORRELATOR 142 T 11 ((0 3 NOTHING) (-2 -3 HORIZONTAL) (-2 -1 MEDIUM)
+                        (4 -2 BLANK) (-3 -2 HORIZONTAL)))
+  (CORRELATOR 144 T 1 ((-2 1 NOTHING) (-4 -2 BLANK) (0 -2 FALL)
+                       (1 0 HORIZONTAL) (-4 -3 BLANK)))
+  (CORRELATOR 148 T 55 ((-1 2 NOTHING) (-1 -3 HORIZONTAL) (2 -3 HORIZONTAL)
+                        (0 0 SMALL) (2 -2 HORIZONTAL)))
+  (CORRELATOR 149 T 1 ((-2 3 NOTHING) (2 0 SMALL) (2 0 SMALL) (2 0 SMALL)
+                       (0 -1 HORIZONTAL)))
+  (CORRELATOR 151 T 145 ((-2 1 HORIZONTAL) (4 -2 BLANK) (-2 -3 MEDIUM)
+                         (-2 0 HORIZONTAL) (0 0 SMALL)))
+  (CORRELATOR 152 T 1 ((-2 1 NOTHING) (3 -2 RISE) (2 -3 MEDIUM) (3 0 SMALL)
+                       (3 -2 RISE)))
+  (CORRELATOR 153 T 92 ((2 1 NOTHING) (0 -1 RISE) (-2 -1 HORIZONTAL)
+                        (0 -1 RISE) (-2 0 HORIZONTAL)))
+  (CORRELATOR 158 T 28 ((0 1 SMALL) (1 -1 MEDIUM) (-1 0 SMALL) (0 0 SMALL)
+                        (1 -2 MEDIUM)))
+  (CORRELATOR 161 T 89 ((2 1 SMALL) (3 -1 SMALL) (0 0 SMALL) (-4 -1 BLANK)
+                        (1 -1 MEDIUM)))
+  (CORRELATOR 163 T 5 ((-1 3 NOTHING) (2 -3 HORIZONTAL) (3 -2 RISE)
+                       (0 -2 FALL) (-4 -1 BLANK)))
+  (CORRELATOR 165 T 1 ((0 3 NOTHING) (4 -2 BLANK) (-2 -3 HORIZONTAL)
+                       (0 -1 HORIZONTAL) (-2 -2 HORIZONTAL)))
+  (CORRELATOR 168 T 39 ((-1 2 NOTHING) (0 0 LARGE) (1 -3 HORIZONTAL)
+                        (1 -3 HORIZONTAL) (0 -3 HORIZONTAL)))
+  (CORRELATOR 169 T 158 ((-1 2 NOTHING) (0 0 SMALL) (1 -3 SMALL) (0 0 SMALL)
+                         (1 -3 SMALL)))
+  (CORRELATOR 170 T 56 ((-2 2 NOTHING) (3 0 HORIZONTAL) (3 -2 HORIZONTAL)
+                        (2 -3 MEDIUM) (1 -2 HORIZONTAL)))
+  (CORRELATOR 172 T 98 ((-2 1 NOTHING) (-1 -1 SMALL) (2 0 SMALL) (0 -2 MEDIUM)
+                        (0 -2 MEDIUM)))
+  (CORRELATOR 177 T 90 ((2 3 NOTHING) (-4 -2 BLANK) (3 0 SMALL) (3 0 SMALL)
+                        (1 -1 MEDIUM)))
+  (CORRELATOR 178 T 9 ((-2 2 NOTHING) (1 0 MEDIUM) (0 -3 HORIZONTAL)
+                       (0 -1 HORIZONTAL) (3 0 HORIZONTAL)))
+  (CORRELATOR 184 T 5 ((-2 2 NOTHING) (-4 -3 BLANK) (3 -2 RISE) (-4 -1 BLANK)
+                       (0 -3 FALL)))
+  (CORRELATOR 186 T 7 ((-2 1 NOTHING) (0 0 SMALL) (-4 -1 BLANK) (0 -2 FALL)
+                       (3 0 FALL)))
+  (CORRELATOR 189 T 88 ((1 3 NOTHING) (1 -1 MEDIUM) (3 -1 SMALL) (2 0 SMALL)
+                        (0 0 SMALL)))
+  (CORRELATOR 190 T 149 ((-1 3 SMALL) (0 0 SMALL) (-3 0 FALL) (4 -1 BLANK)
+                         (-3 0 FALL)))
+  (CORRELATOR 193 T 65 ((-1 1 NOTHING) (4 0 BLANK) (-2 -1 MEDIUM)
+                        (0 -1 HORIZONTAL) (4 -3 BLANK)))
+  (CORRELATOR 195 T 1 ((-1 2 SMALL) (0 0 MEDIUM) (-2 0 HORIZONTAL)
+                       (-2 0 HORIZONTAL) (-1 -3 SMALL)))
+  (CORRELATOR 196 T 3 ((2 1 SMALL) (1 -1 MEDIUM) (2 0 SMALL) (-4 0 BLANK)
+                       (1 -3 SMALL)))
+  (CORRELATOR 197 T 71 ((2 1 NOTHING) (4 -1 BLANK) (-2 -1 MEDIUM)
+                        (0 -2 HORIZONTAL) (0 -2 HORIZONTAL)))
+  (CORRELATOR 201 T 131 ((1 3 NOTHING) (-3 -1 FALL) (-2 -1 HORIZONTAL)
+                         (-3 0 FALL) (4 -3 BLANK)))
+  (CORRELATOR 203 T 1 ((0 1 SMALL) (0 -2 FALL) (3 0 FALL) (0 -3 FALL)
+                       (0 0 SMALL)))
+  (CORRELATOR 205 T 1 ((0 1 NOTHING) (1 0 MEDIUM) (0 -3 HORIZONTAL)
+                       (0 -3 HORIZONTAL) (2 -2 MEDIUM)))
+  (CORRELATOR 208 T 4 ((-1 3 NOTHING) (2 -3 HORIZONTAL) (4 -3 HORIZONTAL)
+                       (2 -1 LARGE) (2 -1 LARGE)))
+  (CORRELATOR 218 T 3 ((0 3 NOTHING) (1 -1 HORIZONTAL) (3 0 FALL) (0 -2 FALL)
+                       (1 0 HORIZONTAL)))
+  (CORRELATOR 219 T 80 ((0 3 NOTHING) (1 -3 SMALL) (-4 0 BLANK) (-4 -3 BLANK)
+                        (-4 -3 BLANK)))
+  (CORRELATOR 221 T 6 ((1 2 SMALL) (0 -3 HORIZONTAL) (2 -3 MEDIUM) (0 0 SMALL)
+                       (2 0 SMALL)))
+  (CORRELATOR 224 T 120 ((-1 2 MEDIUM) (-3 -1 FALL) (-2 -1 HORIZONTAL)
+                         (0 -1 RISE) (-2 -1 HORIZONTAL)))
+  (CORRELATOR 226 T 26 ((0 1 NOTHING) (3 -2 RISE) (0 0 MEDIUM) (0 0 MEDIUM)
+                        (1 0 SMALL)))
+  (CORRELATOR 229 T 89 ((-2 2 NOTHING) (2 -2 RISE) (3 -1 HORIZONTAL)
+                        (0 -1 HORIZONTAL) (-4 -2 BLANK)))
+  (CORRELATOR 232 T 2 ((0 1 NOTHING) (0 -1 HORIZONTAL) (-2 -1 MEDIUM)
+                       (-2 0 MEDIUM) (-3 -2 HORIZONTAL)))
+  (CORRELATOR 238 T 1 ((-2 2 NOTHING) (-3 -1 FALL) (-3 -1 FALL)
+                       (-1 -2 HORIZONTAL) (0 0 SMALL)))
+  (CORRELATOR 242 T 1 ((0 1 NOTHING) (-3 -3 HORIZONTAL) (0 -3 HORIZONTAL)
+                       (-2 -1 MEDIUM) (4 -1 BLANK)))
+  (CORRELATOR 244 T 23 ((-1 2 MEDIUM) (4 -2 BLANK) (-3 -2 FALL) (4 -2 BLANK)
+                        (4 -2 BLANK)))
+  (CORRELATOR 245 T 91 ((0 1 LARGE) (0 0 SMALL) (-1 -3 MEDIUM)
+                        (1 0 HORIZONTAL) (1 -2 HORIZONTAL)))
+  (CORRELATOR 247 T 1 ((1 2 NOTHING) (1 0 HORIZONTAL) (0 0 SMALL) (0 -3 FALL)
+                       (-4 -3 BLANK)))
+  (CORRELATOR 249 T 139 ((0 3 NOTHING) (2 -3 RISE) (-1 -2 FALL)
+                         (0 -2 HORIZONTAL) (-1 0 SMALL)))
+  (CORRELATOR 254 T 5 ((-2 2 NOTHING) (-3 -1 FALL) (0 0 SMALL) (4 -2 BLANK)
+                       (4 -3 BLANK)))
+  (CORRELATOR 258 T 3 ((1 2 NOTHING) (-2 -1 HORIZONTAL) (-3 0 FALL)
+                       (4 -1 BLANK) (-2 -1 HORIZONTAL)))
+  (CORRELATOR 262 T 1 ((0 1 FALL) (-2 -1 HORIZONTAL) (4 -2 BLANK)
+                       (-2 0 HORIZONTAL) (0 0 SMALL)))
+  (CORRELATOR 263 T 11 ((2 2 NOTHING) (-2 -2 HORIZONTAL) (4 -1 BLANK)
+                        (0 -1 HORIZONTAL) (4 -3 BLANK)))
+  (CORRELATOR 264 T 1 ((0 1 SMALL) (1 -2 HORIZONTAL) (-4 -1 BLANK)
+                       (-4 -1 BLANK) (3 -2 RISE)))
+  (CORRELATOR 267 T 3 ((0 3 NOTHING) (0 -1 FALL) (0 -3 FALL) (-4 -2 BLANK)
+                       (1 -1 HORIZONTAL)))
+  (CORRELATOR 270 T 5 ((0 2 NOTHING) (-1 -2 HORIZONTAL) (0 0 SMALL)
+                       (4 -2 BLANK) (-3 -2 FALL)))
+  (CORRELATOR 273 T 90 ((0 1 HORIZONTAL) (3 0 SMALL) (-4 0 BLANK)
+                        (1 -2 MEDIUM) (1 -2 MEDIUM)))
+  (CORRELATOR 275 T 5 ((1 2 NOTHING) (4 -3 BLANK) (-3 -3 HORIZONTAL)
+                       (-2 -1 MEDIUM) (0 -2 HORIZONTAL)))
+  (CORRELATOR 278 T 106 ((2 3 NOTHING) (2 0 MEDIUM) (0 0 MEDIUM) (2 -2 RISE)
+                         (2 0 MEDIUM)))
+  (CORRELATOR 280 T 1 ((-1 1 NOTHING) (1 -3 MEDIUM) (2 -1 MEDIUM) (2 -2 SMALL)
+                       (0 -1 HORIZONTAL)))
+  (CORRELATOR 284 T 1 ((-1 2 NOTHING) (2 0 HORIZONTAL) (-1 -3 HORIZONTAL)
+                       (-1 -2 HORIZONTAL) (-1 0 HORIZONTAL)))
+  (CORRELATOR 286 T 1 ((-2 3 NOTHING) (4 -1 BLANK) (4 -2 BLANK) (4 -1 BLANK)
+                       (-2 -3 MEDIUM)))
+  (CORRELATOR 288 T 1 ((2 3 NOTHING) (1 -1 HORIZONTAL) (0 -3 FALL)
+                       (-4 -3 BLANK) (0 -2 FALL)))
+  (CORRELATOR 298 T 5 ((1 3 SMALL) (-3 -3 BLANK) (2 -2 MEDIUM)
+                       (0 -2 HORIZONTAL) (1 -1 SMALL)))
+  (CORRELATOR 300 T 1 ((1 3 NOTHING) (0 0 SMALL) (1 -3 SMALL) (1 -2 MEDIUM)
+                       (3 -1 SMALL)))
+  (CORRELATOR 305 T 146 ((2 2 NOTHING) (4 -1 BLANK) (0 0 SMALL) (-2 -3 MEDIUM)
+                         (-3 -1 FALL)))
+  (CORRELATOR 308 T 1 ((2 2 NOTHING) (-1 -3 FALL) (1 0 MEDIUM)
+                       (0 -3 HORIZONTAL) (-1 -2 FALL)))
+  (CORRELATOR 315 T 77 ((2 1 NOTHING) (3 -1 HORIZONTAL) (0 -1 HORIZONTAL)
+                        (1 0 MEDIUM) (3 0 HORIZONTAL)))
+  (CORRELATOR 317 T 92 ((-1 1 NOTHING) (1 -1 MEDIUM) (1 -3 SMALL) (-4 0 BLANK)
+                        (3 0 SMALL)))
+  (CORRELATOR 322 T 2 ((-1 2 NOTHING) (-4 0 HORIZONTAL) (4 -1 BLANK)
+                       (4 -1 BLANK) (-4 0 HORIZONTAL)))
+  (CORRELATOR 329 T 6 ((1 3 NOTHING) (-4 0 BLANK) (-4 0 BLANK) (-4 -1 BLANK)
+                       (-4 -2 BLANK)))
+  (CORRELATOR 331 T 145 ((-2 2 NOTHING) (3 -2 FALL) (0 -3 FALL) (3 -2 FALL)
+                         (3 -2 FALL)))
+  (CORRELATOR 334 T 89 ((-1 3 NOTHING) (-1 -2 MEDIUM) (1 0 HORIZONTAL)
+                        (-1 -3 MEDIUM) (-2 -1 HORIZONTAL)))
+  (CORRELATOR 337 T 103 ((-1 1 NOTHING) (-1 -2 MEDIUM) (1 -3 SMALL)
+                         (1 -3 SMALL) (0 -1 MEDIUM)))
+  (CORRELATOR 348 T 16 ((-2 1 SMALL) (-2 -1 MEDIUM) (-3 -3 HORIZONTAL)
+                        (0 -3 HORIZONTAL) (0 -3 HORIZONTAL)))
+  (CORRELATOR 349 T 15 ((-2 2 NOTHING) (0 -3 HORIZONTAL) (4 0 BLANK)
+                        (4 -1 BLANK) (-2 0 MEDIUM)))
+  (CORRELATOR 351 T 2 ((-1 2 NOTHING) (2 -3 HORIZONTAL) (0 -2 FALL)
+                       (1 0 HORIZONTAL) (3 -2 RISE)))
+  (CORRELATOR 354 T 79 ((0 3 NOTHING) (3 -1 HORIZONTAL) (0 -3 HORIZONTAL)
+                        (0 -1 HORIZONTAL) (0 -2 HORIZONTAL)))
+  (CORRELATOR 355 T 79 ((2 3 NOTHING) (-3 -2 HORIZONTAL) (4 0 BLANK)
+                        (4 -2 BLANK) (4 0 BLANK)))
+  (CORRELATOR 359 T 26 ((-1 1 NOTHING) (1 -3 FALL) (3 -1 SMALL)
+                        (0 -3 HORIZONTAL) (3 -3 RISE)))
+  (CORRELATOR 365 T 1 ((1 2 NOTHING) (0 -2 HORIZONTAL) (-1 -3 FALL)
+                       (-1 -1 SMALL) (0 -2 HORIZONTAL)))
+  (CORRELATOR 366 T 50 ((2 1 NOTHING) (0 -2 HORIZONTAL) (0 -2 HORIZONTAL)
+                        (-2 -2 HORIZONTAL) (-2 -2 HORIZONTAL)))
+  (CORRELATOR 393 T 26 ((2 3 NOTHING) (2 -1 MEDIUM) (0 -1 HORIZONTAL)
+                        (2 0 MEDIUM) (2 0 MEDIUM)))
+  (CORRELATOR 400 T 7 ((1 3 NOTHING) (-1 -2 MEDIUM) (-1 -2 MEDIUM)
+                       (-1 -3 SMALL) (-2 -3 HORIZONTAL)))
+  (CORRELATOR 405 T 1 ((2 1 NOTHING) (1 -2 HORIZONTAL) (0 -3 RISE)
+                       (-2 -2 HORIZONTAL) (1 -2 HORIZONTAL)))
+  (CORRELATOR 406 T 75 ((2 2 NOTHING) (-1 -3 HORIZONTAL) (-1 -1 HORIZONTAL)
+                        (2 -1 HORIZONTAL) (2 0 HORIZONTAL)))
+  (CORRELATOR 409 T 89 ((1 1 NOTHING) (-4 -2 BLANK) (1 -1 MEDIUM) (3 0 SMALL)
+                        (1 -1 MEDIUM)))
+  (CORRELATOR 411 T 76 ((1 2 NOTHING) (0 0 SMALL) (3 -3 BLANK) (0 -1 RISE)
+                        (-2 -2 LARGE)))
+  (CORRELATOR 412 T 1 ((-1 2 NOTHING) (-4 -2 BLANK) (0 0 SMALL)
+                       (1 0 HORIZONTAL) (-4 -3 BLANK)))
+  (CORRELATOR 417 T 88 ((-2 2 NOTHING) (2 0 SMALL) (-4 -2 BLANK) (-4 -1 BLANK)
+                        (3 0 SMALL)))
+  (CORRELATOR 421 T 76 ((-2 3 NOTHING) (1 -1 HORIZONTAL) (0 -1 HORIZONTAL)
+                        (0 -2 HORIZONTAL) (2 -3 MEDIUM)))
+  (CORRELATOR 422 T 6 ((1 3 NOTHING) (-4 -1 BLANK) (-4 -2 BLANK) (-4 -1 BLANK)
+                       (2 0 SMALL)))
+  (CORRELATOR 425 T 78 ((-2 1 NOTHING) (-1 -1 HORIZONTAL) (2 0 HORIZONTAL)
+                        (1 -3 SMALL) (2 0 HORIZONTAL)))
+  (CORRELATOR 428 T 3 ((-1 2 NOTHING) (3 0 HORIZONTAL) (0 -1 HORIZONTAL)
+                       (1 0 MEDIUM) (0 -2 HORIZONTAL)))
+  (CORRELATOR 433 T 4 ((-1 3 NOTHING) (4 -3 BLANK) (4 0 BLANK)
+                       (-3 -2 HORIZONTAL) (-3 -2 HORIZONTAL)))
+  (CORRELATOR 434 T 4 ((0 2 NOTHING) (-4 -1 BLANK) (-4 -1 BLANK) (1 0 MEDIUM)
+                       (2 -2 MEDIUM)))
+  (CORRELATOR 440 T 89 ((-1 3 NOTHING) (3 -3 HORIZONTAL) (2 -1 HORIZONTAL)
+                        (0 -1 HORIZONTAL) (1 -3 MEDIUM)))
+  (CORRELATOR 441 T 68 ((1 3 NOTHING) (0 -1 HORIZONTAL) (-3 -3 HORIZONTAL)
+                        (-2 -3 HORIZONTAL) (-3 -2 HORIZONTAL)))
+  (CORRELATOR 452 T 9 ((0 2 NOTHING) (-2 -3 HORIZONTAL) (-3 -3 HORIZONTAL)
+                       (0 -2 HORIZONTAL) (4 -3 BLANK)))
+  (CORRELATOR 458 T 2 ((2 2 NOTHING) (4 -2 BLANK) (-2 -1 HORIZONTAL)
+                       (0 0 SMALL) (-2 -1 HORIZONTAL)))
+  (CORRELATOR 462 T 92 ((-2 1 NOTHING) (-4 0 BLANK) (2 0 SMALL) (1 -1 MEDIUM)
+                        (-4 0 BLANK)))
+  (CORRELATOR 463 T 5 ((-2 3 NOTHING) (1 -2 HORIZONTAL) (0 -2 HORIZONTAL)
+                       (2 -1 MEDIUM) (-4 -2 BLANK)))
+  (CORRELATOR 464 T 3 ((0 3 NOTHING) (4 -1 BLANK) (4 -1 BLANK) (4 -3 BLANK)
+                       (0 0 SMALL)))
+  (CORRELATOR 466 T 23 ((0 2 NOTHING) (0 0 MEDIUM) (0 -2 HORIZONTAL)
+                        (2 -1 MEDIUM) (0 -1 HORIZONTAL)))
+  (CORRELATOR 483 T 3 ((0 2 NOTHING) (2 -3 MEDIUM) (0 -1 HORIZONTAL)
+                       (2 -3 MEDIUM) (1 -1 SMALL)))
+  (CORRELATOR 490 T 90 ((-2 2 NOTHING) (1 -3 MEDIUM) (2 -1 SMALL) (0 -1 SMALL)
+                        (2 0 MEDIUM)))
+  (CORRELATOR 493 T 8 ((0 3 NOTHING) (-4 -2 BLANK) (1 -3 SMALL) (-4 -3 BLANK)
+                       (3 0 SMALL)))
+  (CORRELATOR 496 T 1 ((1 2 NOTHING) (-1 -3 MEDIUM) (-2 -1 HORIZONTAL)
+                       (1 -1 HORIZONTAL) (-2 -1 HORIZONTAL)))
+  (CORRELATOR 508 T 1 ((1 3 NOTHING) (0 0 SMALL) (-4 -1 BLANK) (3 -1 FALL)
+                       (0 -1 FALL)))
+  (CORRELATOR 514 T 77 ((-1 3 NOTHING) (3 -1 HORIZONTAL) (1 0 MEDIUM)
+                        (1 -1 HORIZONTAL) (1 -2 HORIZONTAL)))
+  (CORRELATOR 517 T 129 ((-1 1 FALL) (0 -2 MEDIUM) (2 0 SMALL) (-1 0 SMALL)
+                         (-1 0 SMALL)))
+  (CORRELATOR 523 T 1 ((0 1 HORIZONTAL) (3 -1 SMALL) (-4 -1 BLANK)
+                       (3 -1 SMALL) (1 -2 MEDIUM)))
+  (CORRELATOR 525 T 1 ((0 1 NOTHING) (-2 -2 HORIZONTAL) (-2 0 MEDIUM)
+                       (0 -2 HORIZONTAL) (0 -3 HORIZONTAL)))
+  (CORRELATOR 528 T 2 ((1 1 NOTHING) (-4 0 BLANK) (-4 0 BLANK) (2 0 SMALL)
+                       (3 -1 SMALL)))
+  (CORRELATOR 530 T 128 ((2 1 NOTHING) (-1 -3 HORIZONTAL) (0 -2 MEDIUM)
+                         (-1 -3 HORIZONTAL) (-2 -2 HORIZONTAL)))
+  (CORRELATOR 531 T 27 ((1 2 NOTHING) (1 0 SMALL) (1 -1 SMALL) (3 -2 RISE)
+                        (1 -2 FALL)))
+  (CORRELATOR 533 T 75 ((-2 3 NOTHING) (-1 -2 HORIZONTAL) (2 0 HORIZONTAL)
+                        (0 -1 HORIZONTAL) (0 0 SMALL)))
+  (CORRELATOR 542 T 1 ((0 2 NOTHING) (-2 0 HORIZONTAL) (4 -3 BLANK)
+                       (0 0 SMALL) (-2 0 HORIZONTAL)))
+  (CORRELATOR 548 T 2 ((-1 3 NOTHING) (0 -1 HORIZONTAL) (-2 0 MEDIUM)
+                       (4 -2 BLANK) (-3 -2 HORIZONTAL)))
+  (CORRELATOR 549 T 2 ((-2 3 NOTHING) (2 -1 FALL) (2 -2 FALL)
+                       (0 -2 HORIZONTAL) (0 -3 HORIZONTAL)))
+  (CORRELATOR 551 T 108 ((0 2 NOTHING) (2 0 MEDIUM) (2 -2 RISE) (0 -2 FALL)
+                         (0 -2 FALL)))
+  (CORRELATOR 562 T 1 ((2 3 NOTHING) (2 0 SMALL) (1 -3 SMALL) (3 0 SMALL)
+                       (3 -1 SMALL)))
+  (CORRELATOR 564 T 4 ((-1 3 NOTHING) (1 -3 HORIZONTAL) (3 -3 FALL)
+                       (2 0 SMALL) (-4 -2 BLANK)))
+  (CORRELATOR 569 T 85 ((1 1 NOTHING) (-2 -1 HORIZONTAL) (0 0 SMALL)
+                        (-1 -3 MEDIUM) (-2 0 HORIZONTAL)))
+  (CORRELATOR 581 T 1 ((2 1 NOTHING) (2 0 LARGE) (-4 -2 BLANK)
+                       (3 -2 HORIZONTAL) (3 -1 HORIZONTAL)))
+  (CORRELATOR 582 T 137 ((-2 1 NOTHING) (-4 -3 BLANK) (1 -1 MEDIUM)
+                         (0 0 SMALL) (0 0 SMALL)))
+  (CORRELATOR 586 T 74 ((2 3 NOTHING) (1 -3 SMALL) (0 0 SMALL) (1 -3 SMALL)
+                        (-1 -1 HORIZONTAL)))
+  (CORRELATOR 590 T 5 ((1 1 NOTHING) (1 -2 HORIZONTAL) (-2 -1 HORIZONTAL)
+                       (-1 -3 MEDIUM) (1 -1 HORIZONTAL)))
+  (CORRELATOR 592 T 67 ((0 2 MEDIUM) (0 0 SMALL) (0 -1 HORIZONTAL)
+                        (-1 -2 HORIZONTAL) (1 -2 MEDIUM)))
+  (CORRELATOR 599 T 6 ((0 1 NOTHING) (4 -2 BLANK) (-2 -1 MEDIUM)
+                       (0 -1 HORIZONTAL) (-2 -2 HORIZONTAL)))
+  (CORRELATOR 614 T 53 ((-1 3 NOTHING) (-1 0 HORIZONTAL) (-1 0 HORIZONTAL)
+                        (-1 -2 HORIZONTAL) (2 -1 HORIZONTAL)))
+  (CORRELATOR 618 T 10 ((2 3 NOTHING) (-1 -3 FALL) (2 -3 RISE) (-1 -3 FALL)
+                        (-1 0 SMALL)))
+  (CORRELATOR 619 T 9 ((-1 3 NOTHING) (0 0 SMALL) (1 -2 HORIZONTAL)
+                       (-1 -3 MEDIUM) (1 -2 HORIZONTAL)))
+  (CORRELATOR 622 T 1 ((2 3 NOTHING) (0 0 SMALL) (0 0 SMALL) (2 -1 HORIZONTAL)
+                       (-1 -2 HORIZONTAL)))
+  (CORRELATOR 625 T 9 ((-1 1 NOTHING) (0 -2 HORIZONTAL) (0 -1 HORIZONTAL)
+                       (-2 0 MEDIUM) (-2 -3 HORIZONTAL)))
+  (CORRELATOR 627 T 24 ((-1 3 NOTHING) (0 -1 MEDIUM) (0 -1 MEDIUM)
+                        (0 -3 HORIZONTAL) (1 0 MEDIUM)))
+  (CORRELATOR 631 T 1 ((0 1 NOTHING) (3 -3 HORIZONTAL) (2 -2 RISE)
+                       (0 -1 HORIZONTAL) (3 -3 HORIZONTAL)))
+  (CORRELATOR 633 T 6 ((-1 2 MEDIUM) (0 0 SMALL) (4 -3 BLANK) (-2 -3 MEDIUM)
+                       (4 -1 BLANK)))
+  (CORRELATOR 639 T 1 ((-2 3 NOTHING) (-4 0 BLANK) (0 -1 FALL) (-4 -1 BLANK)
+                       (-4 -2 BLANK)))
+  (CORRELATOR 645 T 1 ((-2 1 NOTHING) (-2 0 HORIZONTAL) (-2 -1 HORIZONTAL)
+                       (-1 -2 MEDIUM) (-1 -2 MEDIUM)))
+  (CORRELATOR 646 T 53 ((-1 1 NOTHING) (2 -1 SMALL) (-3 -3 BLANK) (2 -1 SMALL)
+                        (-3 -3 BLANK)))
+  (CORRELATOR 647 T 1 ((-2 3 NOTHING) (1 -1 HORIZONTAL) (2 -3 MEDIUM)
+                       (0 -2 HORIZONTAL) (2 -3 MEDIUM)))
+  (CORRELATOR 652 T 116 ((2 1 NOTHING) (0 -1 MEDIUM) (0 -1 MEDIUM)
+                         (-1 -3 SMALL) (1 -3 SMALL)))
+  (CORRELATOR 657 T 82 ((2 2 NOTHING) (0 -1 RISE) (1 -2 HORIZONTAL)
+                        (-2 -1 HORIZONTAL) (-2 0 HORIZONTAL)))
+  (CORRELATOR 661 T 148 ((-1 1 NOTHING) (2 -2 RISE) (0 -1 SMALL) (2 -2 RISE)
+                         (1 -3 MEDIUM)))
+  (CORRELATOR 680 T 16 ((1 3 NOTHING) (-3 -2 FALL) (-1 -2 HORIZONTAL)
+                        (4 -1 BLANK) (4 -3 BLANK)))
+  (CORRELATOR 681 T 6 ((0 3 NOTHING) (0 -1 HORIZONTAL) (-2 -1 MEDIUM)
+                       (0 -2 HORIZONTAL) (0 -1 HORIZONTAL)))
+  (CORRELATOR 689 T 15 ((-1 2 NOTHING) (2 0 SMALL) (1 -3 HORIZONTAL)
+                        (2 0 SMALL) (-4 -3 BLANK)))
+  (CORRELATOR 690 T 25 ((2 2 NOTHING) (0 0 MEDIUM) (3 -1 SMALL) (2 -3 MEDIUM)
+                        (0 -2 HORIZONTAL)))
+  (CORRELATOR 719 T 10 ((0 3 NOTHING) (2 -2 FALL) (0 -3 HORIZONTAL)
+                        (-1 -3 FALL) (2 -2 FALL)))
+  (CORRELATOR 733 T 1 ((-2 2 NOTHING) (3 -3 FALL) (0 -3 FALL)
+                       (0 -1 HORIZONTAL) (2 0 SMALL)))
+  (CORRELATOR 734 T 6 ((1 3 NOTHING) (-2 -1 MEDIUM) (4 -2 BLANK)
+                       (-3 -2 HORIZONTAL) (0 -1 HORIZONTAL)))
+  (CORRELATOR 750 T 27 ((-2 3 NOTHING) (3 -2 RISE) (1 -1 SMALL) (1 -1 SMALL)
+                        (1 0 SMALL)))
+  (CORRELATOR 775 T 9 ((2 2 NOTHING) (0 -3 HORIZONTAL) (-3 -2 HORIZONTAL)
+                       (-2 -3 HORIZONTAL) (4 -3 BLANK)))
+  (CORRELATOR 780 T 24 ((0 2 NOTHING) (0 -1 MEDIUM) (0 -1 MEDIUM)
+                        (1 -2 MEDIUM) (-1 -3 HORIZONTAL)))
+  (CORRELATOR 783 T 19 ((-2 1 NOTHING) (1 0 MEDIUM) (0 -3 FALL) (2 -2 SMALL)
+                        (0 -2 SMALL)))
+  (CORRELATOR 784 T 2 ((0 3 NOTHING) (2 0 SMALL) (1 -2 MEDIUM) (1 -3 SMALL)
+                       (3 0 SMALL)))
+  (CORRELATOR 785 T 20 ((0 3 NOTHING) (-2 0 SMALL) (0 -3 SMALL) (-2 -1 SMALL)
+                        (0 -1 SMALL)))
+  (CORRELATOR 787 T 88 ((1 2 NOTHING) (-2 -2 SMALL) (-2 0 MEDIUM) (0 0 SMALL)
+                        (0 0 SMALL)))
+  (CORRELATOR 789 T 3 ((2 3 NOTHING) (-2 -1 SMALL) (0 -3 MEDIUM) (0 -3 MEDIUM)
+                       (-2 0 SMALL)))
+  (CORRELATOR 790 T 1 ((-2 3 NOTHING) (-4 -1 BLANK) (0 0 SMALL) (0 0 SMALL)
+                       (-4 -3 BLANK)))
+  (CORRELATOR 796 T 5 ((-2 3 NOTHING) (0 -3 FALL) (2 0 SMALL) (0 -3 FALL)
+                       (-4 -2 BLANK)))
+  (CORRELATOR 805 T 26 ((2 1 NOTHING) (-1 -3 HORIZONTAL) (0 -2 SMALL)
+                        (2 -3 SMALL) (0 -3 SMALL)))
+  (CORRELATOR 806 T 72 ((-1 1 NOTHING) (0 -1 HORIZONTAL) (0 -1 HORIZONTAL)
+                        (3 -1 HORIZONTAL) (3 -1 HORIZONTAL)))
+  (CORRELATOR 842 T 1 ((-1 1 NOTHING) (1 0 HORIZONTAL) (3 -2 RISE)
+                       (-4 -2 BLANK) (1 -1 HORIZONTAL)))
+  (CORRELATOR 845 T 69 ((1 2 NOTHING) (1 -2 MEDIUM) (-4 -1 BLANK) (2 0 SMALL)
+                        (0 0 SMALL)))
+  (CORRELATOR 850 T 9 ((1 2 NOTHING) (-3 -2 HORIZONTAL) (-3 -3 HORIZONTAL)
+                       (-2 -1 MEDIUM) (-2 -2 HORIZONTAL)))
+  (CORRELATOR 853 T 9 ((1 1 NOTHING) (2 0 SMALL) (2 -2 HORIZONTAL)
+                       (2 -2 HORIZONTAL) (-3 -3 BLANK)))
+  (CORRELATOR 856 T 5 ((0 1 NOTHING) (0 -3 FALL) (1 0 MEDIUM) (2 -1 MEDIUM)
+                       (1 0 MEDIUM)))
+  (CORRELATOR 858 T 1 ((1 1 NOTHING) (3 -2 FALL) (2 -1 MEDIUM) (2 -1 MEDIUM)
+                       (0 -2 HORIZONTAL)))
+  (CORRELATOR 871 T 12 ((2 1 NOTHING) (2 0 MEDIUM) (2 -3 LARGE) (0 0 MEDIUM)
+                        (0 -2 FALL)))
+  (CORRELATOR 876 T 15 ((-1 1 NOTHING) (-3 -3 BLANK) (2 -2 SMALL)
+                        (-3 -2 BLANK) (-3 -2 BLANK)))
+  (CORRELATOR 890 T 2 ((-2 1 NOTHING) (2 -3 MEDIUM) (0 -2 HORIZONTAL)
+                       (2 -3 MEDIUM) (0 -3 HORIZONTAL)))
+  (CORRELATOR 903 T 1 ((2 3 NOTHING) (0 -2 HORIZONTAL) (2 -2 FALL) (2 -2 FALL)
+                       (-1 -3 FALL)))
+  (CORRELATOR 904 T 4 ((1 3 NOTHING) (-2 -2 HORIZONTAL) (0 -2 HORIZONTAL)
+                       (-2 -2 HORIZONTAL) (0 -3 HORIZONTAL)))
+  (CORRELATOR 928 T 2 ((-2 3 NOTHING) (1 -3 HORIZONTAL) (-4 -3 BLANK)
+                       (-4 -3 BLANK) (0 -1 HORIZONTAL)))
+  (CORRELATOR 929 T 13 ((-2 2 NOTHING) (0 -1 HORIZONTAL) (3 -2 HORIZONTAL)
+                        (1 0 MEDIUM) (0 -1 HORIZONTAL)))
+  (CORRELATOR 932 T 4 ((-1 2 NOTHING) (-4 -2 BLANK) (0 0 SMALL) (1 -1 MEDIUM)
+                       (0 0 SMALL)))
+  (CORRELATOR 933 T 79 ((-1 2 NOTHING) (-2 -3 HORIZONTAL) (4 0 BLANK)
+                        (4 -2 BLANK) (-2 -1 MEDIUM)))
+  (CORRELATOR 953 T 25 ((-1 1 NOTHING) (0 -1 LARGE) (2 -2 SMALL)
+                        (-1 -3 HORIZONTAL) (2 -2 SMALL)))
+  (CORRELATOR 957 T 16 ((-1 1 NOTHING) (-1 -1 HORIZONTAL) (-1 -3 HORIZONTAL)
+                        (2 0 HORIZONTAL) (0 0 SMALL)))
+  (CORRELATOR 972 T 92 ((0 2 NOTHING) (1 -3 SMALL) (-4 -2 BLANK) (3 0 SMALL)
+                        (-4 0 BLANK)))
+  (CORRELATOR 973 T 1 ((1 1 MEDIUM) (3 -1 HORIZONTAL) (0 -2 HORIZONTAL)
+                       (3 -1 HORIZONTAL) (3 0 HORIZONTAL)))
+  (CORRELATOR 984 T 18 ((2 3 NOTHING) (0 -3 HORIZONTAL) (0 0 MEDIUM)
+                        (2 -3 MEDIUM) (0 -2 HORIZONTAL)))
+  (CORRELATOR 992 T 6 ((1 1 NOTHING) (4 -1 BLANK) (0 -2 HORIZONTAL)
+                       (4 -2 BLANK) (4 -1 BLANK)))
+
+237 non-zero entries
+98 < 10 confirmations
+139 well-confirmed
+
+
+
+
+
+
+#((CORRELATOR 5 T 147 ((0 1 SMALL) (0 -3 FALL) (2 -3 HORIZONTAL) (-4 -2 BLANK)
+                       (2 -3 HORIZONTAL)))
+  (CORRELATOR 11 T 148 ((0 1 FALL) (-2 -3 MEDIUM) (4 -2 BLANK) (4 -3 BLANK)
+                        (0 0 SMALL)))
+  (CORRELATOR 37 T 11 ((1 1 MEDIUM) (3 -2 HORIZONTAL) (1 -2 HORIZONTAL)
+                       (1 -2 HORIZONTAL) (1 -1 HORIZONTAL)))
+  (CORRELATOR 151 T 145 ((-2 1 HORIZONTAL) (4 -2 BLANK) (-2 -3 MEDIUM)
+                         (-2 0 HORIZONTAL) (0 0 SMALL)))
+  (CORRELATOR 158 T 28 ((0 1 SMALL) (1 -1 MEDIUM) (-1 0 SMALL) (0 0 SMALL)
+                        (1 -2 MEDIUM)))
+  (CORRELATOR 161 T 89 ((2 1 SMALL) (3 -1 SMALL) (0 0 SMALL) (-4 -1 BLANK)
+                        (1 -1 MEDIUM)))
+  (CORRELATOR 190 T 149 ((-1 3 SMALL) (0 0 SMALL) (-3 0 FALL) (4 -1 BLANK)
+                         (-3 0 FALL)))
+  (CORRELATOR 195 T 1 ((-1 2 SMALL) (0 0 MEDIUM) (-2 0 HORIZONTAL)
+                       (-2 0 HORIZONTAL) (-1 -3 SMALL)))
+  (CORRELATOR 196 T 3 ((2 1 SMALL) (1 -1 MEDIUM) (2 0 SMALL) (-4 0 BLANK)
+                       (1 -3 SMALL)))
+  (CORRELATOR 203 T 1 ((0 1 SMALL) (0 -2 FALL) (3 0 FALL) (0 -3 FALL)
+                       (0 0 SMALL)))
+  (CORRELATOR 221 T 6 ((1 2 SMALL) (0 -3 HORIZONTAL) (2 -3 MEDIUM) (0 0 SMALL)
+                       (2 0 SMALL)))
+  (CORRELATOR 224 T 120 ((-1 2 MEDIUM) (-3 -1 FALL) (-2 -1 HORIZONTAL)
+                         (0 -1 RISE) (-2 -1 HORIZONTAL)))
+  (CORRELATOR 244 T 23 ((-1 2 MEDIUM) (4 -2 BLANK) (-3 -2 FALL) (4 -2 BLANK)
+                        (4 -2 BLANK)))
+  (CORRELATOR 245 T 91 ((0 1 LARGE) (0 0 SMALL) (-1 -3 MEDIUM)
+                        (1 0 HORIZONTAL) (1 -2 HORIZONTAL)))
+  (CORRELATOR 262 T 1 ((0 1 FALL) (-2 -1 HORIZONTAL) (4 -2 BLANK)
+                       (-2 0 HORIZONTAL) (0 0 SMALL)))
+  (CORRELATOR 264 T 1 ((0 1 SMALL) (1 -2 HORIZONTAL) (-4 -1 BLANK)
+                       (-4 -1 BLANK) (3 -2 RISE)))
+  (CORRELATOR 273 T 90 ((0 1 HORIZONTAL) (3 0 SMALL) (-4 0 BLANK)
+                        (1 -2 MEDIUM) (1 -2 MEDIUM)))
+  (CORRELATOR 298 T 5 ((1 3 SMALL) (-3 -3 BLANK) (2 -2 MEDIUM)
+                       (0 -2 HORIZONTAL) (1 -1 SMALL)))
+  (CORRELATOR 348 T 16 ((-2 1 SMALL) (-2 -1 MEDIUM) (-3 -3 HORIZONTAL)
+                        (0 -3 HORIZONTAL) (0 -3 HORIZONTAL)))
+  (CORRELATOR 517 T 129 ((-1 1 FALL) (0 -2 MEDIUM) (2 0 SMALL) (-1 0 SMALL)
+                         (-1 0 SMALL)))
+  (CORRELATOR 523 T 1 ((0 1 HORIZONTAL) (3 -1 SMALL) (-4 -1 BLANK)
+                       (3 -1 SMALL) (1 -2 MEDIUM)))
+  (CORRELATOR 592 T 67 ((0 2 MEDIUM) (0 0 SMALL) (0 -1 HORIZONTAL)
+                        (-1 -2 HORIZONTAL) (1 -2 MEDIUM)))
+  (CORRELATOR 633 T 6 ((-1 2 MEDIUM) (0 0 SMALL) (4 -3 BLANK) (-2 -3 MEDIUM)
+                       (4 -1 BLANK)))
+  (CORRELATOR 973 T 1 ((1 1 MEDIUM) (3 -1 HORIZONTAL) (0 -2 HORIZONTAL)
+                       (3 -1 HORIZONTAL) (3 0 HORIZONTAL)))
+
+24 non-nothing entries
+
+
+
+
+#((CORRELATOR 5 T 147 ((0 1 SMALL) (0 -3 FALL) (2 -3 HORIZONTAL) (-4 -2 BLANK)
+                       (2 -3 HORIZONTAL)))
+    0
+........
+........
+.H......
+........
+.F...S.. 0
+........
+........
+........
+.._.....
+Part of 'e'
+
+  (CORRELATOR 11 T 148 ((0 1 FALL) (-2 -3 MEDIUM) (4 -2 BLANK) (4 -3 BLANK)
+                        (0 0 SMALL)))
+    0
+.__.....
+........
+........
+........
+....SF.. 0
+........
+.M......
+........
+........
+Part of 'e'
+
+  (CORRELATOR 151 T 145 ((-2 1 HORIZONTAL) (4 -2 BLANK) (-2 -3 MEDIUM)
+                         (-2 0 HORIZONTAL) (0 0 SMALL)))
+    0
+.._.....
+........
+........
+........
+....S... 0
+........
+.M..HH..
+........
+........
+Part of 'e'
+
+  (CORRELATOR 161 T 89 ((2 1 SMALL) (3 -1 SMALL) (0 0 SMALL) (-4 -1 BLANK)
+                        (1 -1 MEDIUM)))
+    0
+........
+...S....
+.....S..
+...M....
+....S... 0
+........
+........
+........
+..._....
+Part of 'a'
+
+  (CORRELATOR 190 T 149 ((-1 3 SMALL) (0 0 SMALL) (-3 0 FALL) (4 -1 BLANK)
+                         (-3 0 FALL)))
+    0
+........
+........
+........
+........
+........ 0
+........
+........
+........
+........
+Part of 'e'?
+
+  (CORRELATOR 224 T 120 ((-1 2 MEDIUM) (-3 -1 FALL) (-2 -1 HORIZONTAL)
+                         (0 -1 RISE) (-2 -1 HORIZONTAL)))
+    0
+........
+........
+........
+........
+........ 0
+........
+........
+........
+........
+Part of 'e'?
+
+  (CORRELATOR 245 T 91 ((0 1 LARGE) (0 0 SMALL) (-1 -3 MEDIUM)
+                        (1 0 HORIZONTAL) (1 -2 HORIZONTAL)))
+    0
+........
+........
+........
+........
+........ 0
+........
+........
+........
+........
+Part of 'a'?
+
+  (CORRELATOR 273 T 90 ((0 1 HORIZONTAL) (3 0 SMALL) (-4 0 BLANK)
+                        (1 -2 MEDIUM) (1 -2 MEDIUM)))
+    0
+........
+........
+........
+........
+........ 0
+........
+........
+........
+........
+Part of 'a'?
+
+  (CORRELATOR 517 T 129 ((-1 1 FALL) (0 -2 MEDIUM) (2 0 SMALL) (-1 0 SMALL)
+                         (-1 0 SMALL)))
+    0
+........
+........
+........
+........
+........ 0
+........
+........
+........
+........
+Part of 'e'?
+
+  (CORRELATOR 592 T 67 ((0 2 MEDIUM) (0 0 SMALL) (0 -1 HORIZONTAL)
+                        (-1 -2 HORIZONTAL) (1 -2 MEDIUM)))
+    0
+........
+........
+........
+........
+........ 0
+........
+........
+........
+........
+Part of 's'?
+
+
+10 strong non-nothing entries
