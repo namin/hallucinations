@@ -1,3 +1,30 @@
+(defun compile-and-load (file)
+  (let ((in-file (concatenate 'string file ".lisp"))
+	(out-file (concatenate 'string file ".fasl")))
+    (compile-file in-file :OUTPUT-FILE out-file)
+    (load out-file)))
+
+(defun eqv (&rest xs)
+  (or (null xs)
+      (cdr (null xs))
+      (and (eql (car xs) (cadr xs))
+	  (eqv (cdr xs)))))
+
+(defmacro defregression (name &rest body)
+  `(progn
+     (defun ,name ()
+       ,@body)
+     ;;(,name)
+     ))
+
+(defmacro with-set (bindings &rest body)
+  `(let ,bindings
+     ,@body))
+
+(defmacro with-temps (bindings &rest body)
+  `(let ,bindings
+     ,@body))
+
 (compile-and-load "pgm2stream")
 (compile-and-load "shiftregister")
 (load "vision.lisp")
