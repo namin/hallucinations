@@ -4,6 +4,14 @@
     (compile-file in-file :OUTPUT-FILE out-file)
     (load out-file)))
 
+(setq ? nil)
+
+(defun ppf (f x y test)
+  (lambda (p) (list p)))
+
+(defun fold (func list init-val)
+  (reduce func list :initial-value init-val))
+
 (defun eqv (x y)
   (equalp x y))
 

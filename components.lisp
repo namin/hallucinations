@@ -6,7 +6,7 @@
 	   (nbrs (elt y test) 
 	     (remove-if-not (lambda (x) (funcall test elt x)) y))
 	   (set-nbrs (set y test)
-	     (fold #'union (mapcar (ppf nbrs ? y test) set) nil))
+	     (fold #'union (mapcar (ppf #'nbrs ? y test) set) nil))
 	   (find-component (sub1 sub2 set1 set2 test inv-test)
 	     (let ((expanded (set-nbrs sub1 set2 test)))
 	       (if (set-difference expanded sub2)
