@@ -11,7 +11,7 @@
   `(progn
      (defun ,name ()
        ,@body)
-     ;;(,name)
+     (,name)
      ))
 
 (defmacro with-set (bindings &rest body)
