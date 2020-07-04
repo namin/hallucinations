@@ -4,11 +4,8 @@
     (compile-file in-file :OUTPUT-FILE out-file)
     (load out-file)))
 
-(defun eqv (&rest xs)
-  (or (null xs)
-      (cdr (null xs))
-      (and (eql (car xs) (cadr xs))
-	  (eqv (cdr xs)))))
+(defun eqv (x y)
+  (equalp x y))
 
 (defmacro defregression (name &rest body)
   `(progn
