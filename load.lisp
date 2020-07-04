@@ -13,7 +13,9 @@
   (reduce func list :initial-value init-val))
 
 (defun mapset (func set)
-  (mapcar func set))
+  (if (null (cdr set))
+      (car set)
+    (funcall func (car set) (cdr set)))) ;; TODO
 
 (defun eqv (x y)
   (equalp x y))

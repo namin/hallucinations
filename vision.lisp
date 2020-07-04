@@ -261,6 +261,8 @@
 	    (rise (make-stroke (list i5 i1)))
 	    (med (make-stroke (list i7))))
 	;; Large stroke:
+        (format t "~A~%" (list big)) ;; TODO: remove just for debugging
+        (format t "~A~%" (list i1 i8 i3)) ;; ditto
 	(assert	(same (list big) (list i1 i8 i3) ; attach three
 		      '((left-attach (large nil T (large 0 6))
 				     (bottom small nil T (small 0 0))
