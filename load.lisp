@@ -12,6 +12,9 @@
 (defun fold (func list init-val)
   (reduce func list :initial-value init-val))
 
+(defun mapset (func set)
+  (mapcar fun set))
+
 (defun eqv (x y)
   (equalp x y))
 
