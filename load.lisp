@@ -4,16 +4,16 @@
     (compile-file in-file :OUTPUT-FILE out-file)
     (load out-file)))
 
-(setq ? nil) ;; TODO
+(setq ? '?) ;; TODO
 
-(defun ppf (f x y test)
-  (lambda (p) (list p))) ;; TODO
+(defun ppf (f &rest args)
+  (lambda (p) (apply f (cons p (remove-if (lambda (x) (eq x '?)) args)))))
 
 (defun fold (func list init-val)
   (reduce func list :initial-value init-val))
 
 (defun mapset (func set)
-  (mapcar fun set)) ;; TODO
+  (mapcar func set))
 
 (defun eqv (x y)
   (equalp x y))
