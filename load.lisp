@@ -5,7 +5,6 @@
 (compile-and-load "vision")
 (compile-and-load "representation")
 (compile-and-load "finger")
-;;(compile-and-load "imgstream")
 
 (defun process-img-sequence (sr stem number &optional print-period)
   (let ((ln 0))
