@@ -1,45 +1,11 @@
-(defun compile-and-load (file)
-  (let ((in-file (concatenate 'string file ".lisp"))
-	(out-file (concatenate 'string file ".fasl")))
-    (compile-file in-file :OUTPUT-FILE out-file)
-    (load out-file)))
-
-(setq ? '?) ;; TODO
-
-(defun ppf (f &rest args)
-  (lambda (p) (apply f (cons p (remove-if (lambda (x) (eq x '?)) args)))))
-
-(defun fold (func list init-val)
-  (reduce func list :initial-value init-val))
-
-(defun mapset (func set)
-  (if (null (cdr set))
-      (car set)
-    (funcall func (car set) (cdr set)))) ;; TODO
-
-(defun eqv (x y)
-  (equalp x y))
-
-(defmacro defregression (name &rest body)
-  `(progn
-     (defun ,name ()
-       ,@body)
-     (,name)
-     ))
-
-(defmacro with-set (bindings &rest body)
-  `(let ,bindings
-     ,@body))
-
-(defmacro with-temps (bindings &rest body)
-  `(let ,bindings
-     ,@body))
-
+(setq sys::*utils-directory* "utils/")
+(load "utils/utils.lisp")
 (compile-and-load "pgm2stream")
 (compile-and-load "shiftregister")
 (compile-and-load "vision")
 (compile-and-load "representation")
 (compile-and-load "finger")
+;;(compile-and-load "imgstream")
 
 (defun process-img-sequence (sr stem number &optional print-period)
   (let ((ln 0))
