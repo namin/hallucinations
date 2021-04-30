@@ -37,7 +37,6 @@
 
 (compile-and-load "pgm2stream")
 (compile-and-load "shiftregister")
-(load "vision.lisp")
 (compile-and-load "vision")
 (compile-and-load "representation")
 (compile-and-load "finger")
