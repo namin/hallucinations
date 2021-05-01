@@ -72,6 +72,15 @@
 
 (defparameter boredom 30)
 
+;; NOTE(namin): this is defined in utils/utils.lisp
+;;  but I was getting an error like
+;;  https://www.cs.cmu.edu/Groups/AI/html/faqs/lang/lisp/part3/faq-doc-8.html
+;;  so redefining here
+(defmacro make-iset (init size &rest args)
+  (let ((a (gensym)) (i (gensym)) (s (gensym)))
+    `(let* ((,s ,size) (,a (make-array ,s ,@args)))
+       (dotimes (,i ,s) (setf (aref ,a ,i) ,init)) ,a)))
+
 (defclass correlator ()
   ((name :initarg :name :accessor name)
    (uses :initform 0 :accessor uses)	; number of successful predictions
