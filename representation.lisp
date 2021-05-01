@@ -176,7 +176,7 @@
 	(let* ((rows (mapcar (pcf find-old-row shift-register) olds))
 	       (insert (round (/ (fold #'+ rows 0) (length rows)))))
 	  (assert (= (length olds) 2))	; shouldn't see any 3-merges
-	  (mapcar (ppf replace-old-versions shift-register ? ? (1- focus-col))
+	  (mapcar (ppf replace-old-versions shift-register ?a ?b (1- focus-col))
 		  olds rows)
 	  (add-observation shift-register insert focus-col new)))
       )
