@@ -1,0 +1,1 @@
+alisp -L "load.lisp" -e '(book-test "pride/austen.txt" 50)' -e "(pprint *correlators*)" -e '(pprint (list step-counter recognition-counter boredom-counter learning-counter conflict-counter confirmed-counter prediction-counter))' -kill > austen50.out
